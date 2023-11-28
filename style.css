@@ -40,14 +40,11 @@ body {
 #cookie {
     transform: rotate(0deg);
     animation: rotate 40s linear infinite;
-    transition: 2s;
 }
 
 #cookie:active {
-    width: 80%;
-    height: 80%;
+    width: 55vh;
 }
-
 
 @keyframes rotate {
     from {
@@ -56,5 +53,21 @@ body {
 
     to {
         transform: rotate(360deg);
+    }
+}
+
+
+@media(max-width: 650px) {
+    .title h1 {
+        font-size: 2em;
+    }
+
+
+    #cookie {
+        width: 90%;
+    }
+
+    #cookie:active {
+        width: 35vh;
     }
 }

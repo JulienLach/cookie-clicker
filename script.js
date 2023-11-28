@@ -7,4 +7,5 @@ cookie.addEventListener('click', function () {
     console.log('Click event triggered!');
     clickCount++;
     counter.textContent = clickCount;
+
 });
