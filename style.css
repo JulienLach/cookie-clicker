@@ -58,16 +58,16 @@ body {
 
 
 @media(max-width: 650px) {
+
     .title h1 {
         font-size: 2em;
     }
 
-
     #cookie {
-        width: 90%;
+        width: 95%;
     }
 
     #cookie:active {
-        width: 35vh;
+        width: 100%;
     }
 }
