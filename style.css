@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+}
+
+/* MAIN SECTION */
+
+.container {
+    width: 60%;
+    margin: 10vh auto;
+}
+
+.header {
+    text-align: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2em;
+}
+
+.title h1 {
+    font-size: 3em;
+}
+
+.title p {
+    font-size: 1.5em;
+}
+
+
+/* COOKIE */
+
+#cookie {
+    transform: rotate(0deg);
+    animation: rotate 40s linear infinite;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
