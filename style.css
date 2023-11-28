@@ -40,8 +40,13 @@ body {
 #cookie {
     transform: rotate(0deg);
     animation: rotate 40s linear infinite;
+    transition: 2s;
 }
 
+#cookie:active {
+    width: 80%;
+    height: 80%;
+}
 
 
 @keyframes rotate {
